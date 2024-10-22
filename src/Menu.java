@@ -69,14 +69,14 @@ public class Menu {
         if(userInputInt > 0 && userInputInt < 4)
         {
             if (userInputInt == 1) {
-                board.setNumberOfHorizontalSquares(5);
-                board.setNumberOfVerticalSquares(5);
+                board.setColumnCollection(5);
+                board.setRowCollection(5);
             } else if (userInputInt == 2) {
-                board.setNumberOfHorizontalSquares(7);
-                board.setNumberOfVerticalSquares(7);
+                board.setColumnCollection(7);
+                board.setRowCollection(7);
             } else if (userInputInt == 3) {
-                board.setNumberOfHorizontalSquares(10);
-                board.setNumberOfVerticalSquares(10);
+                board.setColumnCollection(10);
+                board.setRowCollection(10);
             }
         } else {
             System.out.println("Wrong input");
