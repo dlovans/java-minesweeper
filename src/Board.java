@@ -10,7 +10,8 @@ public class Board {
     int[][] boardCollection = new int[rowCollection][columnCollection];
 
    /*
-    int[][] bombCollection;*/
+    int[][] bombCollection;
+    */
 
     public Board() {
 
