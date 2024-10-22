@@ -30,7 +30,7 @@ public class Board {
      * @param rows - Number of rows based on difficulty.
      * @param columns - Number of columns based on difficulty.
      */
-    public void createBoard(int rows, int columns) {
+    private void createBoard(int rows, int columns) {
         ArrayList<String> tempRow = new ArrayList<>();
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
